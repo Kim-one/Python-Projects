@@ -19,17 +19,18 @@ print(f"Hey there, my name is {name}! I'm {age} years old and I'm {height} feet 
 num1 = 357
 num2 = 28
 
+# Calculates and prints the results of each operation
 print(f"The sum of {num1} and {num2} is ", num1+num2)
 print(f"The product of {num1} and {num2} is ", num1*num2)
 print(f"The difference of {num1} and {num2} is ", num1-num2)
 print(f"The quotient of {num1} and {num2} is ", num1/num2)
-print("Those were random, not sure why you chose those. Like what was reason *insert eye roll*")
 
 # Task 3: Conditional Statements
 
 # Get input from user
 user_input = int(input("Enter a number: "))
-# print(user_input)
+
+# Checks if the number is positive, negative or 0
 if user_input>0:
     print("The number is positive. Awesome!")
 elif user_input<0:
