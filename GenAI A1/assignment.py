@@ -20,6 +20,9 @@ num1 = 357
 num2 = 28
 
 print(f"The sum of {num1} and {num2} is ", num1+num2)
+print(f"The product of {num1} and {num2} is ", num1*num2)
+print(f"The difference of {num1} and {num2} is ", num1-num2)
+print(f"The quotient of {num1} and {num2} is ", num1/num2)
 print("Those were random, not sure why you chose those. Like what was reason *insert eye roll*")
 
 # Task 3: Conditional Statements
